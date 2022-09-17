@@ -1,0 +1,16 @@
+#content-container{
+    display: flex;
+    flex-direction: row;
+    width : 100%;
+    justify-content: space-between;
+}
+
+#navigation {
+    align-self: flex-end;
+}
+
+#sticky{
+    position: -webkit-sticky; 
+    position: sticky;
+    top : 0;
+}

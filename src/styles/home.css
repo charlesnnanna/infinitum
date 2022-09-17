@@ -1,0 +1,43 @@
+#about-img{
+    width : 495px;
+    height: 323px;
+}
+
+#phone-screen{
+    margin-left: -80px;
+}
+
+#home {
+    background-image: linear-gradient(rgb(249, 249, 249), rgb(81, 155, 255));
+}
+
+#features{
+    background-color: rgb(249, 249, 249, 0.6);
+}
+
+
+
+@media (min-width: 640px){
+    #about-img{
+        width : 595px;
+        height: 423px;
+    }
+   
+
+    #home {
+        background: white;
+    }
+
+    
+}
+
+@media (min-width: 769px){
+    #download-container {
+        height: 500px;
+        background-image: linear-gradient(to right, rgb(81,155,255,1) , rgb(255,255,255));
+    }
+
+    #phone-screen{
+        margin-left: 0px;
+    }
+}
